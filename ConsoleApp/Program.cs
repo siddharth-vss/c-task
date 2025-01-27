@@ -25,8 +25,8 @@ namespace ConsoleApp
             double percentage = (double)totalMarks / 5;
 
             // Print total and percentage
-            Console.WriteLine($"Total Marks: {totalMarks}");
-            Console.WriteLine($"Percentage: {percentage}%");
+            Console.WriteLine("Total Marks: {0}",totalMarks);
+            Console.WriteLine("Percentage: {0}%",percentage);
 
             Console.ReadLine();
         }
